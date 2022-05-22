@@ -5,8 +5,8 @@ type Compra = {
 }
 
 class Fatura {
-    nome: string
-    compra: Compra[] = []
+    private nome: string
+    private compra: Compra[] = []
 
     constructor(nome: string) {
         this.nome = nome
